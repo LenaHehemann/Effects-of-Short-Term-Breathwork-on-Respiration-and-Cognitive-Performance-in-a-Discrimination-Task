@@ -41,12 +41,16 @@ To run the provided MATLAB code, follow these steps:
 1. Download the required files and Toolboxes
 Download Analyse_data.m and data.mat and store both files in the same folder.
 Download bayesFToolbox (Source code is available at: https://github.com/klabhub/bayesFactor)
-Download cameri colormap (https://www.mathworks.com/matlabcentral/fileexchange/68546-crameri-perceptually-uniform-scientific-colormaps/files/crameri)
-or change the colormap to one of your choice (line 96)
+Download cameri colormap or change the colormap to one of your choice (line 96) 
+(https://www.mathworks.com/matlabcentral/fileexchange/68546-crameri-perceptually-uniform-scientific-colormaps/files/crameri)
+(Crameri, Fabio. Scientific Colour Maps. Zenodo, 2019, doi:10.5281/ZENODO.1243862.)
+
 2.Set the data path
 Open Analyse_data.m in MATLAB and change the path in line 7 to the folder containing Analyse_data.m and data.mat. and all other dowmloads
 3.Add the custom functions
 Download the custom_functions folder and add its location to the MATLAB path.
+Note: ck_stat_fdr is adjusted from David Groppe (2026). 
+fdr_bh (https://www.mathworks.com/matlabcentral/fileexchange/27418-fdr_bh), MATLAB Central File Exchange. Retrieved September 16, 2026. 
 4.Run the analysis
 Open Analyse_data.m in MATLAB and run the script. The script will process the provided data,
 perform the statistical analyses, and generate the corresponding visualizations and results.
