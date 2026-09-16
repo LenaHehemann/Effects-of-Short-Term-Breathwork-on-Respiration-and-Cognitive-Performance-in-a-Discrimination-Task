@@ -4,11 +4,16 @@ The study investigates how brief, one-minute periods of structured breathing aff
 in a visual emotion discrimination task. Across two experiments, participants performed different breathing practices that manipulated either 
 respiratory frequency or the inhalation-to-exhalation ratio before completing the task.
 
-Experiment 1 compared slow breathing (box breathing) with fast breathing, while Experiment 2 compared s
-hort-inspiration/long-expiration (SILE), long-inspiration/short-expiration (LISE), and a no-intervention (NOI) condition involving spontaneous breathing.
+Experiment 1 compared slow breathing (box breathing) with fast breathing, 
+while Experiment 2 compared short-inspiration/long-expiration (SILE), long-inspiration/short-expiration (LISE),
+and a no-intervention (NOI) condition involving spontaneous breathing.
 
 Repository contents
 The repository provides preprocessed and derived data together with the scripts used to reproduce the analyses reported in the manuscript.
+The analysis code was developed and tested using:
+MATLAB R2022b
+Statistics and Machine Learning Toolbox
+Other MATLAB versions may also work, but the code has been tested with MATLAB R2022b.
 
 The provided data include, where applicable:
 -preprocessed respiratory measures
@@ -31,6 +36,20 @@ Study design
 Respiratory data were originally recorded using a thermistor-based system and analyzed with respect to respiratory frequency, 
 inhalation-to-exhalation ratio, respiratory phase, and atypical respiratory cycles. Behavioral analyses focused on reaction times 
 and fraction of correct responses in the subsequent emotion discrimination task.
+
+To run the provided MATLAB code, follow these steps:
+1. Download the required files and Toolboxes
+Download Analyse_data.m and data.mat and store both files in the same folder.
+Download bayesFToolbox (Source code is available at: https://github.com/klabhub/bayesFactor)
+Download cameri colormap (https://www.mathworks.com/matlabcentral/fileexchange/68546-crameri-perceptually-uniform-scientific-colormaps/files/crameri)
+or change the colormap to one of your choice (line 96)
+2.Set the data path
+Open Analyse_data.m in MATLAB and change the path in line 7 to the folder containing Analyse_data.m and data.mat. and all other dowmloads
+3.Add the custom functions
+Download the custom_functions folder and add its location to the MATLAB path.
+4.Run the analysis
+Open Analyse_data.m in MATLAB and run the script. The script will process the provided data,
+perform the statistical analyses, and generate the corresponding visualizations and results.
 
 Reproducibility
 The analysis scripts are intended to allow the statistical analyses and visualizations 
