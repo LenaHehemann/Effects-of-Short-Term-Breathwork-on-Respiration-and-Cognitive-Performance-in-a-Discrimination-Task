@@ -1,0 +1,53 @@
+This repository contains the preprocessed data and analysis code accompanying the study “Effects of Short-Term Breathwork on Respiration and Cognitive Performance 
+in a Discrimination Task” by Lena Hehemann, Lisa Stetza, and Christoph Kayser, Department of Cognitive Neuroscience, Bielefeld University.
+The study investigates how brief, one-minute periods of structured breathing affect respiration and subsequent cognitive performance 
+in a visual emotion discrimination task. Across two experiments, participants performed different breathing practices that manipulated either 
+respiratory frequency or the inhalation-to-exhalation ratio before completing the task.
+
+Experiment 1 compared slow breathing (box breathing) with fast breathing, while Experiment 2 compared s
+hort-inspiration/long-expiration (SILE), long-inspiration/short-expiration (LISE), and a no-intervention (NOI) condition involving spontaneous breathing.
+
+Repository contents
+The repository provides preprocessed and derived data together with the scripts used to reproduce the analyses reported in the manuscript.
+
+The provided data include, where applicable:
+-preprocessed respiratory measures
+-derived measures of respiratory frequency and inhalation-to-exhalation ratio
+-measures of atypical or undefined respiratory cycles
+-behavioral measures, including reaction times and response accuracy
+-condition- and time-resolved data used for the statistical analyses
+
+The analysis scripts operate on these processed data and are used to:
+-visualize respiratory and behavioral measures
+-perform the statistical analyses reported in the manuscript
+-analyze respiratory dynamics during and following the breathing interventions
+-analyze temporal changes in reaction times and response accuracy
+-generate the figures and statistical results presented in the manuscript
+
+Raw physiological recordings are not provided in this repository. 
+The repository therefore focuses on the processed data necessary to reproduce the reported analyses and visualizations.
+
+Study design
+Respiratory data were originally recorded using a thermistor-based system and analyzed with respect to respiratory frequency, 
+inhalation-to-exhalation ratio, respiratory phase, and atypical respiratory cycles. Behavioral analyses focused on reaction times 
+and fraction of correct responses in the subsequent emotion discrimination task.
+
+Reproducibility
+The analysis scripts are intended to allow the statistical analyses and visualizations 
+reported in the manuscript to be reproduced from the provided processed data.
+
+Ethics and data protection
+The study was approved by the ethics committee of Bielefeld University,
+and all participants provided written informed consent.
+The data provided in this repository have been processed and prepared for sharing in 
+accordance with the applicable ethical and data-protection requirements.
+
+Citation
+If you use the data or code provided in this repository, please cite the associated publication:
+Hehemann, L., Stetza, L., & Kayser, C. (2026) Effects of Short-Term Breathwork on Respiration and Cognitive Performance in a Discrimination Task.
+
+Authors
+Lena Hehemann, Lisa Stetza, & Christoph Kayser
+Department of Cognitive Neuroscience
+Faculty of Biology, Bielefeld University
+Bielefeld, Germany
